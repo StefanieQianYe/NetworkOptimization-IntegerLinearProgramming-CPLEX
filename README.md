@@ -8,7 +8,8 @@ To solve this network optimization problem, I build a mathematical model named S
 
 Refer to the file named "Figure_of_Result_WMATA.png", when transfer station #4 is removed from the network, its directly connected station #35 hosts 35,866 more passengers than usual, some nearby indirectly connected stations #3 #7 #17 host 5,300 to 47,405 more passengers, even a faraway station #2 experiences 32 more passengers although the increase is minor compared to others.
 
-The CPLEX input of the real-world WMATA metro network is too large to show in the limit space. Therefore, I use the "Small_Sample_Network.png" with 5 nodes and 3 rail lines to demonstrate my methodology. In the small sample network, for simplicity, all distance among directly connected node pairs is set to be 1, and I assign one passenger to travel between each OD pair. Please refer to the file named "CPLEX_code.lp" for CPLEX inputs, and "Steps_to_implement_optimization_in_CPLEX" for procedures of how to implement the optimization in CPLEX.
+The CPLEX input of the real-world WMATA metro network is too large to show in the limit space. Therefore, I use the "Small_Sample_Network.png" with 5 nodes and 3 rail lines to demonstrate my methodology. In the small sample network, for simplicity, all distance among directly connected node pairs is set to be 1, and I assign one passenger to travel between each OD pair. Please refer to the file named "CPLEX_code.lp" for CPLEX inputs.
+(Please refer to "Steps_to_implement_optimization_in_CPLEX" if you don't know how to implement the optimization in CPLEX.)
 
 The file named "CPLEX_output.txt" shows the optimization results. Illustrated below is how to interpret the results:
 
