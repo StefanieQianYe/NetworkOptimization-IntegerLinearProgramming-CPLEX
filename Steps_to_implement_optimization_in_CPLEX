@@ -1,6 +1,6 @@
 Below procedure shows how to implement the optimization in CPLEX:
 
-STEP 1: Create a text file describing the problem (Please refer to the next section for CPLEX input and output).
+STEP 1: Create a text file describing the problem (An example is provided in the file named "CPLEX_code.lp").
 
 STEP 2: Start the CPLEX interactive system (cplex.exe).
 
