@@ -13,8 +13,8 @@ The CPLEX input of the real-world WMATA metro network is too large to show in th
 
 The file named "CPLEX_output.txt" shows the optimization results. Illustrated below is how to interpret the results:
 
-Objective = 3.4000000000e+001
 
+Objective = 3.4000000000e+001
 (It means the total network cost is 34 passenger-miles.)
 
 
