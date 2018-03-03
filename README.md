@@ -25,19 +25,19 @@ X_01_04_01_03                 1.000000
 
 X_01_04_03_04                 1.000000
 
-(It means the shortest path from node #1 to node #4 is #1-#3-#4.)
+(It means the shortest path from node A to node D is A-C-D.)
 
 
 
 ARCFLOW01_03                  3.000000
 
-(It means the arc #1-#3 transports 3 passengers.)
+(It means the arc A-C transports 3 passengers.)
 
 
 
 C_NODEFLOW_03                24.000000
 
-(It means node #3 hosts 24 passengers.)
+(It means node C hosts 24 passengers.)
 
 
 
