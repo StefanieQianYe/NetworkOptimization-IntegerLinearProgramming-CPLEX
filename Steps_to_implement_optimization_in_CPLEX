@@ -1,0 +1,19 @@
+Below procedure shows how to implement the optimization in CPLEX:
+
+STEP 1: Create a text file describing the problem (Please refer to the next section for CPLEX input and output).
+
+STEP 2: Start the CPLEX interactive system (cplex.exe).
+
+STEP 3: Set up the directory of log file that records all work information. Command: set log D:\your local folder\your file name.txt, then press Enter
+
+STEP 4: Read the problem file created in STEP 1. Command: Read filename.txt (drag the file into CPLEX), then press Enter
+
+STEP 5: Specify the problem type (e.g., “lp” for linear programming) Command: lp, then press Enter
+
+STEP 6: Solve the optimization problem. Command: opt, then press Enter
+
+STEP 7: Display solution for all variables. Command: dis so va -, then press Enter
+
+STEP 8: Quit CPLEX. Command: quit, then press Enter
+
+STEP 9: Check solution results in the log file as created in STEP 3.
