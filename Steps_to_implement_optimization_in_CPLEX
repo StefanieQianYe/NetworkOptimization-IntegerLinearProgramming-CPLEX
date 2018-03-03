@@ -22,4 +22,4 @@ Command: dis so va -, then press Enter
 STEP 8: Quit CPLEX. 
 Command: quit, then press Enter
 
-STEP 9: Check solution results in the log file as created in STEP 3.
+STEP 9: Check solution results in the log file as created in STEP 3. (An example is provided in the file named "CPLEX_output.txt").
