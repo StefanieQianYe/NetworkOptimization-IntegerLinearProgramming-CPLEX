@@ -10,7 +10,7 @@ For example, refer to the "Figure_of_Result_WMATA", when transfer station #4 is 
 
 The CPLEX input of the real-world WMATA metro network is too large to show in the limit space. Therefore, I use the "Small_Sample_Network.png" with 5 nodes and 3 rail lines to demonstrate my methodology. In the small sample network, for simplicity, all distance among directly connected node pairs is set to be 1, and I assign one passenger to travel between each OD pair. Please refer to the file named "CPLEX_code.lp" for CPLEX inputs, and "Steps_to_implement_optimization_in_CPLEX" for procedures of how to implement the optimization in CPLEX.
 
-The file named "CPLEX_output.txt" shows the optimization results. Below is how to interpret the results:
+The file named "CPLEX_output.txt" shows the optimization results. Illustrated below is how to interpret the results:
 
 Objective = 3.4000000000e+001
 
