@@ -8,7 +8,7 @@ STEP 3: Set up the directory of log file that records all work information.
 Command: set log D:\your local folder\your file name.txt, then press Enter
 
 STEP 4: Read the problem file created in STEP 1. 
-Command: Read filename.txt (drag the file into CPLEX), then press Enter
+Command: Read filename.lp (drag the file into CPLEX), then press Enter
 
 STEP 5: Specify the problem type (e.g., “lp” for linear programming) 
 Command: lp, then press Enter
